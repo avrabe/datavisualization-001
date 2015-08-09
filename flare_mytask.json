@@ -1,0 +1,809 @@
+{
+    "name": "flare", 
+    "children": [
+        {
+            "name": "do_build", 
+            "children": []
+        }, 
+        {
+            "name": "do_compile", 
+            "children": [
+                {
+                    "parent_name": "do_compile", 
+                    "name": "perl-native", 
+                    "size": 29474
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "busybox", 
+                    "size": 14931
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "make", 
+                    "size": 1088
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "xz-native", 
+                    "size": 2161
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "diffutils", 
+                    "size": 1444
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "gcc-runtime", 
+                    "size": 7381
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "sqlite3", 
+                    "size": 10740
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "glibc", 
+                    "size": 36990
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "rpm-native", 
+                    "size": 30880
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "libgcc", 
+                    "size": 2638
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "binutils-cross-i586", 
+                    "size": 41513
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "gettext", 
+                    "size": 26218
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "mpfr-native", 
+                    "size": 7176
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "db-native", 
+                    "size": 17003
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "ncurses", 
+                    "size": 16019
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "openssl", 
+                    "size": 21562
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "acl-native", 
+                    "size": 1650
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "readline", 
+                    "size": 1780
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "gettext-native", 
+                    "size": 28288
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "bison-native", 
+                    "size": 2224
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "pkgconfig-native", 
+                    "size": 3340
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "gmp-native", 
+                    "size": 9253
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "m4", 
+                    "size": 1812
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "gcc-cross-initial-i586", 
+                    "size": 74821
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "cross-localedef-native", 
+                    "size": 1607
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "expat", 
+                    "size": 1274
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "db", 
+                    "size": 19772
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "gcc-cross-i586", 
+                    "size": 42727
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "binutils-native", 
+                    "size": 37362
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "openssl-native", 
+                    "size": 19727
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "libpcre-native", 
+                    "size": 4186
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "readline-native", 
+                    "size": 1526
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "sqlite3-native", 
+                    "size": 8654
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "libmpc-native", 
+                    "size": 1671
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "perl", 
+                    "size": 32714
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "gdbm", 
+                    "size": 1249
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "beecrypt-native", 
+                    "size": 2352
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "python-native", 
+                    "size": 18757
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "python", 
+                    "size": 12722
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "bzip2", 
+                    "size": 1132
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "ncurses-native", 
+                    "size": 13262
+                }, 
+                {
+                    "parent_name": "do_compile", 
+                    "name": "elfutils-native", 
+                    "size": 10004
+                }
+            ]
+        }, 
+        {
+            "name": "do_compile_ptest_base", 
+            "children": [
+                {
+                    "parent_name": "do_compile_ptest_base", 
+                    "name": "flex", 
+                    "size": 2962
+                }, 
+                {
+                    "parent_name": "do_compile_ptest_base", 
+                    "name": "openssl", 
+                    "size": 2261
+                }
+            ]
+        }, 
+        {
+            "name": "do_configure", 
+            "children": [
+                {
+                    "parent_name": "do_configure", 
+                    "name": "libtool-native", 
+                    "size": 1063
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "gperf-native", 
+                    "size": 2665
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "bzip2", 
+                    "size": 1072
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "gettext-native", 
+                    "size": 28887
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "perl-native", 
+                    "size": 9275
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "db-native", 
+                    "size": 2808
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "gcc-runtime", 
+                    "size": 2960
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "glibc-initial", 
+                    "size": 1789
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "gettext", 
+                    "size": 24362
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "glibc", 
+                    "size": 1630
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "sed", 
+                    "size": 3324
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "diffutils", 
+                    "size": 4863
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "flex", 
+                    "size": 2568
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "sqlite3-native", 
+                    "size": 1304
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "beecrypt-native", 
+                    "size": 3531
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "libffi", 
+                    "size": 2437
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "libtool-cross", 
+                    "size": 2032
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "prelink-native", 
+                    "size": 1488
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "m4-native", 
+                    "size": 3167
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "expat", 
+                    "size": 1661
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "gmp-native", 
+                    "size": 4374
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "xz-native", 
+                    "size": 2963
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "db", 
+                    "size": 3189
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "sqlite3", 
+                    "size": 1495
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "rpm-native", 
+                    "size": 12871
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "bzip2-native", 
+                    "size": 1491
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "make", 
+                    "size": 1680
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "ncurses", 
+                    "size": 1880
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "libpcre-native", 
+                    "size": 3151
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "python", 
+                    "size": 4397
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "bc", 
+                    "size": 1268
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "mpfr-native", 
+                    "size": 3029
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "cross-localedef-native", 
+                    "size": 1113
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "kconfig-frontends-native", 
+                    "size": 3004
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "pkgconfig-native", 
+                    "size": 7297
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "m4", 
+                    "size": 4140
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "popt-native", 
+                    "size": 2637
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "python-native", 
+                    "size": 7342
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "ncurses-native", 
+                    "size": 3327
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "readline", 
+                    "size": 1226
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "acl-native", 
+                    "size": 1923
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "ossp-uuid-native", 
+                    "size": 2214
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "gdbm", 
+                    "size": 2135
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "libmpc-native", 
+                    "size": 2482
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "file-native", 
+                    "size": 2849
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "bison-native", 
+                    "size": 8450
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "attr-native", 
+                    "size": 1678
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "readline-native", 
+                    "size": 1750
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "flex-native", 
+                    "size": 2302
+                }, 
+                {
+                    "parent_name": "do_configure", 
+                    "name": "elfutils-native", 
+                    "size": 1948
+                }
+            ]
+        }, 
+        {
+            "name": "do_configure_ptest_base", 
+            "children": []
+        }, 
+        {
+            "name": "do_evacuate_scripts", 
+            "children": []
+        }, 
+        {
+            "name": "do_extra_symlinks", 
+            "children": []
+        }, 
+        {
+            "name": "do_install", 
+            "children": [
+                {
+                    "parent_name": "do_install", 
+                    "name": "ncurses", 
+                    "size": 4215
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "glibc", 
+                    "size": 9044
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "openssl", 
+                    "size": 11117
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "glibc-initial", 
+                    "size": 2636
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "python", 
+                    "size": 1975
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "gettext", 
+                    "size": 2454
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "rpm-native", 
+                    "size": 1632
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "perl-native", 
+                    "size": 7798
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "linux-libc-headers", 
+                    "size": 3071
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "binutils-native", 
+                    "size": 1755
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "openssl-native", 
+                    "size": 9182
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "python-native", 
+                    "size": 3083
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "gettext-native", 
+                    "size": 4501
+                }, 
+                {
+                    "parent_name": "do_install", 
+                    "name": "ncurses-native", 
+                    "size": 2431
+                }
+            ]
+        }, 
+        {
+            "name": "do_install_locale", 
+            "children": []
+        }, 
+        {
+            "name": "do_install_ptest_base", 
+            "children": []
+        }, 
+        {
+            "name": "do_multilib_install", 
+            "children": []
+        }, 
+        {
+            "name": "do_package", 
+            "children": [
+                {
+                    "parent_name": "do_package", 
+                    "name": "python", 
+                    "size": 3114
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "ncurses", 
+                    "size": 4181
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "linux-libc-headers", 
+                    "size": 1134
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "glibc-locale", 
+                    "size": 39436
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "gcc-runtime", 
+                    "size": 1664
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "busybox", 
+                    "size": 1134
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "openssl", 
+                    "size": 4804
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "flex", 
+                    "size": 2016
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "db", 
+                    "size": 6736
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "gettext", 
+                    "size": 3379
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "glibc", 
+                    "size": 2604
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "sed", 
+                    "size": 2604
+                }, 
+                {
+                    "parent_name": "do_package", 
+                    "name": "perl", 
+                    "size": 11101
+                }
+            ]
+        }, 
+        {
+            "name": "do_package_qa", 
+            "children": []
+        }, 
+        {
+            "name": "do_package_write_rpm", 
+            "children": [
+                {
+                    "parent_name": "do_package_write_rpm", 
+                    "name": "db", 
+                    "size": 5844
+                }, 
+                {
+                    "parent_name": "do_package_write_rpm", 
+                    "name": "glibc-locale", 
+                    "size": 26839
+                }, 
+                {
+                    "parent_name": "do_package_write_rpm", 
+                    "name": "ncurses", 
+                    "size": 1360
+                }, 
+                {
+                    "parent_name": "do_package_write_rpm", 
+                    "name": "python", 
+                    "size": 2802
+                }, 
+                {
+                    "parent_name": "do_package_write_rpm", 
+                    "name": "openssl", 
+                    "size": 2079
+                }, 
+                {
+                    "parent_name": "do_package_write_rpm", 
+                    "name": "gettext", 
+                    "size": 1887
+                }, 
+                {
+                    "parent_name": "do_package_write_rpm", 
+                    "name": "gcc-runtime", 
+                    "size": 1880
+                }, 
+                {
+                    "parent_name": "do_package_write_rpm", 
+                    "name": "perl", 
+                    "size": 9381
+                }, 
+                {
+                    "parent_name": "do_package_write_rpm", 
+                    "name": "glibc", 
+                    "size": 3061
+                }
+            ]
+        }, 
+        {
+            "name": "do_packagedata", 
+            "children": []
+        }, 
+        {
+            "name": "do_patch", 
+            "children": [
+                {
+                    "parent_name": "do_patch", 
+                    "name": "rpm-native", 
+                    "size": 1038
+                }
+            ]
+        }, 
+        {
+            "name": "do_populate_lic", 
+            "children": []
+        }, 
+        {
+            "name": "do_populate_sysroot", 
+            "children": [
+                {
+                    "parent_name": "do_populate_sysroot", 
+                    "name": "gcc-cross-i586", 
+                    "size": 1912
+                }, 
+                {
+                    "parent_name": "do_populate_sysroot", 
+                    "name": "gcc-cross-initial-i586", 
+                    "size": 1754
+                }, 
+                {
+                    "parent_name": "do_populate_sysroot", 
+                    "name": "ncurses-native", 
+                    "size": 1065
+                }, 
+                {
+                    "parent_name": "do_populate_sysroot", 
+                    "name": "glibc", 
+                    "size": 3992
+                }, 
+                {
+                    "parent_name": "do_populate_sysroot", 
+                    "name": "python-native", 
+                    "size": 6781
+                }, 
+                {
+                    "parent_name": "do_populate_sysroot", 
+                    "name": "db", 
+                    "size": 1002
+                }, 
+                {
+                    "parent_name": "do_populate_sysroot", 
+                    "name": "ncurses", 
+                    "size": 1053
+                }, 
+                {
+                    "parent_name": "do_populate_sysroot", 
+                    "name": "cross-localedef-native", 
+                    "size": 9390
+                }, 
+                {
+                    "parent_name": "do_populate_sysroot", 
+                    "name": "rpm-native", 
+                    "size": 1099
+                }, 
+                {
+                    "parent_name": "do_populate_sysroot", 
+                    "name": "perl-native", 
+                    "size": 3153
+                }
+            ]
+        }, 
+        {
+            "name": "do_preconfigure", 
+            "children": []
+        }, 
+        {
+            "name": "do_unpack", 
+            "children": [
+                {
+                    "parent_name": "do_unpack", 
+                    "name": "linux-libc-headers", 
+                    "size": 1703
+                }, 
+                {
+                    "parent_name": "do_unpack", 
+                    "name": "gcc-source-4.9.3", 
+                    "size": 4155
+                }
+            ]
+        }
+    ]
+}
